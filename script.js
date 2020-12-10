@@ -101,7 +101,6 @@ function generatePassword() {
             tempLetterChoice = letterChoice[currentLetterChoice];
 
             let chosenList = letterChoiceDict[tempLetterChoice];
-            console.log(chosenList);
 
             if (chosenList.want === true) {
                 getTrue = false;
